@@ -10,7 +10,7 @@ It introduces the basics of Python programming—how to run Python scripts, work
 
 **Project Structure**
 This project lives inside the repository:
-``c
+```c
 holbertonschool-higher_level_programming/
 └── python-hello_world/
      ├── 2-print.py
@@ -21,14 +21,14 @@ holbertonschool-higher_level_programming/
      ├── 7-edges.py
      ├── 8-concat_edges.py
      └── 9-easter_egg.py
-``
+```
 Each file corresponds to a specific learning task.
 
 **Requirements**
 Python scripts must start with:
-``c
+```c
 #!/usr/bin/python3
-``
+```
 - Files must be executable
 - Code tested on Ubuntu 20.04 LTS, Python 3.8.*
 - Style checked with pycodestyle 2.7.*
@@ -38,9 +38,9 @@ Python scripts must start with:
 **Tasks Summary**
 0. Hello, print
 Print exactly:
-``c
+```c
 "Programming is like building a multilingual puzzle
-``
+```
 
 1. Print integer
 Print a number with a message using f-strings.
@@ -53,9 +53,9 @@ Print a string 3 times and then its first 9 characters.
 
 4. Play with strings
 Concatenate two variables to print:
-``c
+```c
 Welcome to Holberton School!
-``
+```
 
 5. Copy - Cut - Paste
 Use slicing to extract specific parts of a word.
@@ -67,15 +67,15 @@ using slicing only—no new variables.
 7. Easter Egg
 Print The Zen of Python in ≤ 98 characters.
 
-How to Run
-``c
+**How to Run**
+```c
 chmod +x <filename>.py
 ./<filename>.py
-``
+```
 or
-``c
+```c
 python3 <filename>.py
-``
+```
 
 **About the Project**
 
