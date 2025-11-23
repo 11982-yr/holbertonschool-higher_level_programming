@@ -37,31 +37,31 @@ Python scripts must start with:
 
 ## Tasks Summary
 0. Hello, print
-Print exactly:
+- Print exactly:
 ```c
 "Programming is like building a multilingual puzzle
 ```
 
 1. Print integer
-Print a number with a message using f-strings.
+- Print a number with a message using f-strings.
 
 2. Print float
-Print a float with 2 decimal precision, using f-strings.
+- Print a float with 2 decimal precision, using f-strings.
 
 3. Print string
-Print a string 3 times and then its first 9 characters.
+- Print a string 3 times and then its first 9 characters.
 
 4. Play with strings
-Concatenate two variables to print:
+- Concatenate two variables to print:
 ```c
 Welcome to Holberton School!
 ```
 
 5. Copy - Cut - Paste
-Use slicing to extract specific parts of a word.
+- Use slicing to extract specific parts of a word.
 
 6. Create a new sentence
-Print: object-oriented programming with Python
+- Print: object-oriented programming with Python
 using slicing only—no new variables.
 
 7. Easter Egg
