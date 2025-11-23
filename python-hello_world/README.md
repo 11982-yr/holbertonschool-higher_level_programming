@@ -3,12 +3,12 @@
 This project is part of the Holberton School Foundations curriculum (v2.1, Part 2).
 It introduces the basics of Python programming—how to run Python scripts, work with strings, format output, and follow the official Python style guide (pycodestyle).
 
-**Features**
+## Features
 - Basic Python syntax demonstration
 - Simple print statement
 - Great first project for new developers
 
-**Project Structure**
+## Project Structure
 This project lives inside the repository:
 ```c
 holbertonschool-higher_level_programming/
@@ -24,7 +24,7 @@ holbertonschool-higher_level_programming/
 ```
 Each file corresponds to a specific learning task.
 
-**Requirements**
+## Requirements
 Python scripts must start with:
 ```c
 #!/usr/bin/python3
@@ -35,7 +35,7 @@ Python scripts must start with:
 - No loops or conditionals unless allowed
 - .md README required at project root
 
-**Tasks Summary**
+## Tasks Summary
 0. Hello, print
 Print exactly:
 ```c
@@ -67,7 +67,7 @@ using slicing only—no new variables.
 7. Easter Egg
 Print The Zen of Python in ≤ 98 characters.
 
-**How to Run**
+## How to Run
 ```c
 chmod +x <filename>.py
 ./<filename>.py
@@ -77,7 +77,7 @@ or
 python3 <filename>.py
 ```
 
-**About the Project**
+## About the Project
 
 This is your first step into Python at Holberton School / Tuwaiq Academy.
 You will learn good coding habits early, practice slicing and formatting, and build confidence with Python fundamentals.
