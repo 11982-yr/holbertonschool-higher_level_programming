@@ -21,7 +21,7 @@ Below is a summary of major project topics contained in this repository:
 
 **Python – Hello, World**
 
-Directory: ```bash python-hello_world/ ```
+Directory: ``` python-hello_world/ ```
 
 This is the introductory Python project, covering:
 - Running Python scripts
@@ -42,7 +42,7 @@ Covers:
 
 **Python – Import & Modules**
 
-Directory: ```bash python-import_modules/ ```
+Directory: ``` python-import_modules/ ```
 
 Learn how Python’s import system works:
 - Creating and importing modules
