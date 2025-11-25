@@ -36,9 +36,6 @@ At the end of this project, you should be able to explain:
 holbertonschool-higher_level_programming/
 └── python-import_modules/
     ├── README.md
-    ├── add_0.py
-    ├── calculator_1.py
-    ├── variable_load_5.py
     │
     ├── 0-add.py
     ├── 1-calculation.py
