@@ -29,6 +29,7 @@ At the end of this project, you should be able to explain:
 - File lengths will be tested with wc
 
 ## Project Structure
+```bash
 holbertonschool-higher_level_programming/
 └── python-import_modules/
     ├── README.md
@@ -46,6 +47,7 @@ holbertonschool-higher_level_programming/
     ├── 101-easy_print.py
     ├── 102-magic_calculation.py
     └── 103-fast_alphabet.py
+```
 **Extra note:**
 - hidden_4.pyc is not stored inside the repo — it is downloaded into /tmp/ at runtime for Task 4:
 ```bash
