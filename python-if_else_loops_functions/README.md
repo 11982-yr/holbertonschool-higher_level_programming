@@ -5,7 +5,7 @@ Python provides fundamental control flow structures: if/else for conditional exe
 ## Project Structure
 
 This project lives inside the repository:
-```c
+```shell
 holbertonschool-higher_level_programming/
 └── python-if_else_loops_functions/
      ├── 0-positive_or_negative.py
@@ -28,7 +28,7 @@ Each file corresponds to a specific learning task.
 ## Requirements
 
 Python scripts must start with:
-```c
+```shell
 #!/usr/bin/python3
 ```
 - Files must be executable
@@ -78,12 +78,12 @@ Python scripts must start with:
 - Write a function that prints the numbers from 1 to 100 separated by a space.
 
 ## How to Run
-```c
+```shell
 chmod +x <filename>.py
 ./<filename>.py
 ```
 or
-```c
+```shell
 python3 <filename>.py
 ```
 
