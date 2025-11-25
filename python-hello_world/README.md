@@ -10,7 +10,7 @@ It introduces the basics of Python programming—how to run Python scripts, work
 
 ## Project Structure
 This project lives inside the repository:
-```c
+```shell
 holbertonschool-higher_level_programming/
 └── python-hello_world/
      ├── 2-print.py
@@ -26,7 +26,7 @@ Each file corresponds to a specific learning task.
 
 ## Requirements
 Python scripts must start with:
-```c
+```shell
 #!/usr/bin/python3
 ```
 - Files must be executable
@@ -38,7 +38,7 @@ Python scripts must start with:
 ## Tasks Summary
 0. Hello, print
 - Print exactly:
-```c
+```shell
 "Programming is like building a multilingual puzzle
 ```
 
@@ -53,7 +53,7 @@ Python scripts must start with:
 
 4. Play with strings
 - Concatenate two variables to print:
-```c
+```shell
 Welcome to Holberton School!
 ```
 
@@ -68,12 +68,12 @@ using slicing only—no new variables.
 Print The Zen of Python in ≤ 98 characters.
 
 ## How to Run
-```c
+```shell
 chmod +x <filename>.py
 ./<filename>.py
 ```
 or
-```c
+```shell
 python3 <filename>.py
 ```
 
