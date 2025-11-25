@@ -32,7 +32,7 @@ This is the introductory Python project, covering:
 
 **Python – If/Else, Loops, Functions**
 
-Directory: ```bash python-if_else_loops_functions/ ```
+Directory: ``` python-if_else_loops_functions/ ```
 
 Covers:
 - Control flow
@@ -68,5 +68,7 @@ Learn how Python’s import system works:
 ## Author
 
 Yara K. Alrasheed 
+
 Email: <11982@holbertonschool.com>
+
 Github: 11982-yr
