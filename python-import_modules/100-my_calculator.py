@@ -16,7 +16,7 @@ if __name__ == "__main__":
         result = add(a, b)
     elif op == "-":
         result = sub(a, b)
-    elif op == "*"
+    elif op == "*":
         result = mul(a, b)
     elif op == "/":
         result = div(a, b)
