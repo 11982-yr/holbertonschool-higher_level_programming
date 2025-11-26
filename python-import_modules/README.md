@@ -1,4 +1,4 @@
-# Python - import & modules
+# Python - import & modules 
 
 This project is part of the Foundations v2.1 Curriculum and introduces the basics of importing functions, using modules, handling command-line arguments, and writing Python scripts that follow good practices.
 
