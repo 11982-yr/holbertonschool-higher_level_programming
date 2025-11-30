@@ -122,4 +122,4 @@ By completing this project, you should be able to explain the following concepts
 
 ## Author
 
-Yara K. Alrasheed <11982@holbertonstudents.com>
+- Yara K. Alrasheed <11982@holbertonstudents.com>
