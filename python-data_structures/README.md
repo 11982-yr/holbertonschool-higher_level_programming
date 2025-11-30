@@ -120,3 +120,6 @@ By completing this project, you should be able to explain the following concepts
 - All files must be executable
 - File length will be tested using wc
 
+## Author
+
+Yara K. Alrasheed <11982@holbertonstudents.com>
