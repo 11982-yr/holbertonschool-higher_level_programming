@@ -12,6 +12,9 @@ holbertonschool-higher_level_programming/
 ├── python-hello_world/
 ├── python-if_else_loops_functions/
 ├── python-import_modules/
+├── python-data_structures/
+├── python-more_data_structures/
+├── python-exceptions/
 └── (additional project folders as assigned)
 ```
 
@@ -51,6 +54,48 @@ Learn how Python’s import system works:
 - The __name__ == "__main__" pattern
 - Inspecting modules with dir()
 
+**Python - Data Structures: Lists, Tuples**
+
+Directory: ``` python-data_structures/ ```
+
+- Using Lists
+- Differences and similarities between strings and lists
+- Using the most common methods of lists
+- Using lists as stacks and queues
+- Using list comprehensions
+- Using tuples
+- Learning when to use tuples versus lists
+- Using a sequence
+- Learning what tuple packing and sequence unpacking is
+- Using the del statement
+
+
+**Python - More Data Structures: Set, Dictionary**
+
+Directory: ``` python-more_data_structures/ ```
+
+- Using sets
+- Using the most common methods of set
+- Learning when to use sets versus lists
+- Iterate into a set
+- Using dictionaries
+- Learning when to use dictionaries versus lists or sets
+- Learning what a key in a dictionary is
+- Iterate over a dictionary
+- Learning what a lambda function is
+- Using the map, reduce and filter functions
+
+**Python - Exceptions**
+
+Directory: ``` python-exceptions/ ```
+
+- Difference between errors and exceptions
+- Using exceptions
+- Learning when it's needed to use exceptions
+- Correctly handling an exception
+- The purpose of catching exceptions
+- raising a builtin exception
+- When it's needed to implement a clean-up action after an exception
 
 ## General Requirements for All Projects
 
