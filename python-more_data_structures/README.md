@@ -4,7 +4,7 @@ This project focuses on strengthening your understanding of Python’s advanced 
 By the end of this project, you will be comfortable using these tools efficiently and understanding when they are most appropriate.
 
 ## Project Structure
-
+```shell
 holbertonschool-higher_level_programming/
 └── python-more_data_structures/
     ├── 0-square_matrix_simple.py
@@ -21,6 +21,7 @@ holbertonschool-higher_level_programming/
     ├── 11-multiply_list_map.py
     ├── 12-roman_to_int.py
     └── README.md
+```
 
 - **0-square_matrix_simple.py**
 
