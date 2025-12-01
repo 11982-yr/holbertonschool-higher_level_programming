@@ -25,7 +25,9 @@ holbertonschool-higher_level_programming/
 
 - **0-square_matrix_simple.py**
 
-Function: ``` square_matrix_simple(matrix=[])```
+Function: ```shell
+square_matrix_simple(matrix=[])
+```
 
 Goal: Return a new matrix where each value is the square of the original.
 
