@@ -87,3 +87,6 @@ python3 -c 'print(__import__("my_module").my_function.__doc__)'
 ```
 - Documentation must be meaningful sentences explaining the purpose of the module, class, or method
 (The checker verifies this.)
+
+## Author
+- Yara K. Alrasheed <11982@holbertonstudents.com>
