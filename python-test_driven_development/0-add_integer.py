@@ -14,7 +14,8 @@ def add_integer(a, b=98):
         b: second number, defaults to 98, must be int or float
 
     Raises:
-        TypeError: if either a or b is not a number
+        TypeError: if either a or b is not a number that can be
+        safely converted to an integer.
 
     The function converts floating-point arguments to integers
     before performing the addition.
@@ -24,9 +25,16 @@ def add_integer(a, b=98):
     if not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
 
-    if isinstance(a, float) and a != a:
+    # Safely convert to int, catching NaN / infinity issues
+    try:
+        a = int(a)
+    except (ValueError, OverflowError):
+        # e.g. float('nan'), float('inf')
         raise TypeError("a must be an integer")
-    if isinstance(b, float) and b != b:
+
+    try:
+        b = int(b)
+    except (ValueError, OverflowError):
         raise TypeError("b must be an integer")
 
-    return int(a) + int(b)
+    return a + b
