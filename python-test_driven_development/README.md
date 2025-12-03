@@ -14,6 +14,8 @@ Starting with this project:
 - 
 This project strengthens your ability to think critically about how code behaves in unexpected situations.
 
+## Project Structure
+```
 holbertonschool-higher_level_programming/
 │
 └── python-test_driven_development/
@@ -34,6 +36,7 @@ holbertonschool-higher_level_programming/
     │   ├── 5-text_indentation.txt
     │   ├── 6-max_integer_test.py
     └──   └── <other doctest files>.txt
+```
 
 ## Learning Objectives
 
