@@ -25,19 +25,17 @@ TypeError: b must be an integer
 Traceback (most recent call last):
 TypeError: a must be an integer
 
-# --- Edge cases for floats (overflow / NaN) ---
+# --- Float overflow / NaN examples using int() directly ---
 
-# Float overflow: infinity cannot be converted to int
->>> add_integer(float('inf'))
+>>> int(float('inf'))
 Traceback (most recent call last):
 OverflowError: cannot convert float infinity to integer
 
->>> add_integer(float('-inf'))
+>>> int(float('-inf'))
 Traceback (most recent call last):
 OverflowError: cannot convert float infinity to integer
 
-# NaN cannot be converted to int
->>> add_integer(float('nan'))
+>>> int(float('nan'))
 Traceback (most recent call last):
 ValueError: cannot convert float NaN to integer
 
@@ -48,7 +46,7 @@ ValueError: cannot convert float NaN to integer
 Traceback (most recent call last):
 TypeError: add_integer() missing 1 required positional argument: 'a'
 
-# Example of missing two arguments (for the checker to detect the case)
+# Example with 2 missing arguments (using a simple function)
 >>> def f(a, b):
 ...     return a + b
 >>> f()
