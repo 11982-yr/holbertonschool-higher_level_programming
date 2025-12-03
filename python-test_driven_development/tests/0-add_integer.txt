@@ -37,6 +37,7 @@ TypeError when a is not a number:
 Traceback (most recent call last):
 TypeError: a must be an integer
 
+
 TypeError when a is None:
 >>> add_integer(None)
 Traceback (most recent call last):
