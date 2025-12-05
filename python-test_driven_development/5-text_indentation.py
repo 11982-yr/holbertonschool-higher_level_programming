@@ -15,18 +15,32 @@ def text_indentation(text):
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
-    chars = ['.', '?', ':']
-    result = ""
-    buffer = ""
+    separators = ".?:"
+    line = ""
+    i = 0
 
-    for c in text:
-        buffer += c
-        if c in chars:
-            # Print the collected buffer without leading/trailing spaces
-            print(buffer.strip())
-            print()
-            buffer = ""
+    while i < len(text):
+        c = text[i]
 
-    # Print remaining text if any
-    if buffer.strip():
-        print(buffer.strip(), end="")
+        if c == '\n':
+            # print current collected line without leading spaces
+            print(line.lstrip())
+            line = ""
+            print()   # keep the blank line caused by '\n'
+            i += 1
+            continue
+
+        # add current character to the current line
+        line += c
+
+        if c in separators:
+            # print line (with separator), no leading spaces
+            print(line.lstrip())
+            print()   # extra blank line
+            line = ""
+
+        i += 1
+
+    # print remaining text if any (no extra newline at the end)
+    if line.strip() != "":
+        print(line.lstrip(), end="")
