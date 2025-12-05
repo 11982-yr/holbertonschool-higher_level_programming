@@ -13,7 +13,8 @@ def matrix_divided(matrix, div):
         div (int or float): Number to divide each element by.
 
     Returns:
-        list: A new matrix with values divided by div and rounded to 2 decimals.
+        list: A new matrix with values divided by div
+              and rounded to 2 decimals.
 
     Raises:
         TypeError: If matrix is not a list of lists of integers/floats.
