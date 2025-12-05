@@ -24,7 +24,9 @@ def matrix_divided(matrix, div):
     """
 
     if (not isinstance(matrix, list) or
-            not all(isinstance(row, list) for row in matrix)):
+            len(matrix) == 0 or
+            not all(isinstance(row, list) for row in matrix) or
+            any(len(row) == 0 for row in matrix)):
         raise TypeError(
             "matrix must be a matrix "
             "(list of lists) "
