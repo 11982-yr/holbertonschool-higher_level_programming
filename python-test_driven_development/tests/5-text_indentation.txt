@@ -93,7 +93,7 @@ A combo example:
     ... "sermone vario sex illa a Dipylo stadia confecimus. Sin aliud quid "
     ... "voles, postea. Quae animi affectio suum cuique tribuens atque hanc, "
     ... "quam dico. Utinam quidem dicerent alium alio beatiorem! Iam ruinas "
-    ... "videres")  # doctest: +NORMALIZE_WHITESPACE
+    ... "videres") # doctest: +NORMALIZE_WHITESPACE
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     <BLANKLINE>
     Quonam modo?
@@ -145,4 +145,3 @@ The parameter ``text`` must be a string. Otherwise, a TypeError is raised.
     >>> text_indentation(None)
     Traceback (most recent call last):
     TypeError: text must be a string
-
