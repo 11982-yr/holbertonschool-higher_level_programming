@@ -5,7 +5,7 @@ Private instance attribute: size
 Instantiation with optional size: def __init__(self, size=0)
 Public instance method: def area(self):
 that returns the current square area
-Public instance method: def my_print(self): 
+Public instance method: def my_print(self):
 that prints in stdout the square with the character #
 """
 
