@@ -46,11 +46,16 @@ class Square:
 
     @position.setter
     def position(self, value):
-        """Set the position attribute ensuring it's a tuple of 2 positive integers."""
-        if (not isinstance(value, tuple) or len(value) != 2 or
-                not isinstance(value[0], int) or not isinstance(value[1], int) or
+        """
+        Set the position attribute ensuring it's a tuple
+        of 2 positive integers.
+        """
+        if (not isinstance(value, tuple) or
+                len(value) != 2 or
+                not isinstance(value[0], int) or
+                not isinstance(value[1], int) or
                 value[0] < 0 or value[1] < 0):
-            raise TypeError("position must be a tuple of 2 positive integer")
+            raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
     def area(self):
@@ -63,9 +68,11 @@ class Square:
             print("")
             return
 
+        # Print vertical offset
         for _ in range(self.__position[1]):
             print("")
 
+        # Print square lines
         for _ in range(self.__size):
             print(" " * self.__position[0] + "#" * self.__size)
 
@@ -77,13 +84,14 @@ class Square:
         if self.__size == 0:
             return ""
 
-        result = []
+        lines = []
 
-        result.append("\n" * self.__position[1])
+        # Vertical offset
+        for _ in range(self.__position[1]):
+            lines.append("")
 
+        # Square rows
         for _ in range(self.__size):
-            result.append(" " * self.__position[0] + "#" * self.__size)
-            if _ != self.__size - 1:
-                result.append("\n")
+            lines.append(" " * self.__position[0] + "#" * self.__size)
 
-        return "".join(result)
+        return "\n".join(lines)
