@@ -54,3 +54,38 @@ holbertonschool-higher_level_programming/
     - ```position[0]``` → horizontal spaces
     - ```position[1]``` → vertical spaces
     - Enhances ```my_print()``` to use both offsets.
+ 
+## Requirements
+**General**
+- Allowed editors: ```vi```, ```vim```, ```emacs```
+- All files will be interpreted/compiled on Ubuntu 20.04 LTS using Python 3.8.5
+- All files must:
+        - End with a new line
+        - Be executable
+        - Start with shebang:
+            ```#!/usr/bin/python3```
+- Code must follow pycodestyle 2.7.*
+- File length will be checked using ```wc```
+
+**Documentation Requirements**
+- Documentation is mandatory.
+- Every module, class, and method must contain meaningful docstrings (Google-style recommended).
+- Examples:
+```
+python3 -c 'print(__import__("my_module").__doc__)'
+python3 -c 'print(__import__("my_module").MyClass.__doc__)'
+python3 -c 'print(__import__("my_module").my_function.__doc__)'
+```
+- A valid docstring must be:
+        - A full sentence
+        - Descriptive of the purpose of the module/class/method
+
+## Summary
+- This project will help you build a strong foundation in Python OOP by learning:
+        - How classes and objects work
+        - How Python handles attributes and methods
+        - How to write clean, documented OOP code
+- Take your time, write the examples manually, test often, and experiment freely!
+
+## Author
+- Yara K. Alrasheed <11982@holbertonstudents.com>
