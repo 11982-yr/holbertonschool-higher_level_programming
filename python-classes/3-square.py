@@ -3,7 +3,7 @@
 This module defines
 Private instance attribute: size
 Instantiation with optional size
-Public instance method: def area(self): 
+Public instance method: def area(self):
 that returns the current square area
 """
 
