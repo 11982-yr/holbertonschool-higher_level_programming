@@ -16,6 +16,8 @@ holbertonschool-higher_level_programming/
 ├── python-more_data_structures/
 ├── python-exceptions/
 ├── python-test_driven_development/
+├── python-classes/
+├── python-more_classes/
 └── (additional project folders as assigned)
 ```
 
