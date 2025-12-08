@@ -53,6 +53,22 @@ holbertonschool-higher_level_programming/
     ├── 6-rectangle.py
     ├── 7-rectangle.py
     ├── 8-rectangle.py
-    ├── 9-rectangle.py
-    └── 101-nqueens.py   (if included in your repo)
+    └── 9-rectangle.py
 ```
+
+## Requirements
+**General**
+- Allowed editors: ```vi```, ```vim```, ```emacs```
+- All files will be interpreted/compiled on Ubuntu 20.04 LTS using Python 3.8.5
+- All files must:
+        - End with a new line
+        - Be executable
+        - Start with shebang:
+            ```#!/usr/bin/python3```
+- Code must follow pycodestyle 2.7.*
+- File length will be checked using ```wc```
+
+## Author
+- Yara K. Alrasheed <11982@holbertonstudents.com>
+
+
