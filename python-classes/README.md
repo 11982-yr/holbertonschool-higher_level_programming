@@ -5,7 +5,7 @@ This project introduces the fundamental concepts of Object-Oriented Programming 
 The core objective of this project is learning by doing—experimenting with classes and objects, trying examples on your own, and developing a deeper understanding of Python’s object model.
 
 ## Project Structure
-```shell
+```
 holbertonschool-higher_level_programming/
 └── python-classes/
     ├── README.md
