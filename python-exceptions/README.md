@@ -3,7 +3,7 @@
 This project focuses on understanding and working with exceptions in Python. You will explore how errors differ from exceptions, how to properly handle them, and when to use cleanup actions. This knowledge is essential for writing robust, maintainable, and bug-resistant Python programs.
  
 ## Project Structure
-```shell
+```
 holbertonschool-higher_level_programming/
 └── python-exceptions/
     ├── 0-safe_print_list.py
