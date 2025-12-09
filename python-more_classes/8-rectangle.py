@@ -12,7 +12,6 @@ This module defines a Rectangle by:
 """
 
 
-
 class Rectangle:
     """Represents a Rectangle"""
 
