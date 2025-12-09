@@ -111,6 +111,34 @@ Directory: ``` python-test_driven_development/ ```
 - Basic option flags to create tests
 - Finding edge cases
 
+**Python - Classes and Objects**
+
+Directory: ``` python-classes/ ```
+
+- What a class is and how to define one
+- Difference between class and instance attributes
+- How to write your own methods
+- Private vs. public attributes
+- Using getters and setters (@property)
+- Understanding and implementing __init__
+- Writing custom ```__str__``` and ```__repr__``` methods
+- How Python encapsulation works
+- Basic behavior inside a class
+
+**Python - More Classes and Objects
+
+Directory: ``` python-more_classes/ ```
+
+- Class attributes and how they differ from instance attributes
+- Using static methods and class methods within a class
+- Implementing more advanced special methods (```__str__```, ```__repr__```, ```__del__```)
+- Tracking the number of active instances
+- Customizing class-wide behavior
+- Creating alternative constructors
+- Comparing objects through custom logic
+- Representing objects in a printable and reproducible way
+- Constructing a square from a rectangle using class methods
+
 ## General Requirements for All Projects
 
 - All files compiled/interpreted on Ubuntu 22.04 LTS
