@@ -125,7 +125,7 @@ Directory: ``` python-classes/ ```
 - How Python encapsulation works
 - Basic behavior inside a class
 
-**Python - More Classes and Objects
+**Python - More Classes and Objects**
 
 Directory: ``` python-more_classes/ ```
 
