@@ -1,5 +1,4 @@
 # Python - Test-driven development
-
 This project focuses on Test-Driven Development (TDD) in Python. You will learn how to write tests before writing your code, using both doctest and unittest, and how proper documentation and edge-case thinking leads to more reliable programs.
 
 
