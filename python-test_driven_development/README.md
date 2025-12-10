@@ -11,7 +11,7 @@ Starting with this project:
 - Intranet checks for Python projects will not be released before the project deadline.
 - You are strongly encouraged to collaborate on test cases, but not on the implementation.
 - Always consider all possible edge cases — don’t trust the user! 
-This project strengthens your ability to think critically about how code behaves in unexpected situations.
+- This project strengthens your ability to think critically about how code behaves in unexpected situations.
 
 ## Project Structure
 ```
