@@ -4,7 +4,6 @@ This project focuses on Test-Driven Development (TDD) in Python. You will learn 
 
 
 ## Background Context
-
 Starting with this project:
 
 - You must write all documentation (modules and functions) and tests before writing the actual code.
