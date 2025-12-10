@@ -1,5 +1,4 @@
 # Python - More Classes and Objects
-
 This project continues your journey into Object-Oriented Programming (OOP) in Python.
 You will learn more advanced concepts such as class attributes, static methods, class methods, printing behaviors (```__str__```, ```__repr__```), and object destruction.
 
