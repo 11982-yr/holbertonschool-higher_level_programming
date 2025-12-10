@@ -10,8 +10,7 @@ Starting with this project:
 - You must write all documentation (modules and functions) and tests before writing the actual code.
 - Intranet checks for Python projects will not be released before the project deadline.
 - You are strongly encouraged to collaborate on test cases, but not on the implementation.
-- Always consider all possible edge cases — don’t trust the user!
-- 
+- Always consider all possible edge cases — don’t trust the user! 
 This project strengthens your ability to think critically about how code behaves in unexpected situations.
 
 ## Project Structure
