@@ -1,10 +1,16 @@
-=========================
-Testing MyList class
-=========================
+# tests/1-my_list.txt
+# Doctest for MyList class
 
 >>> MyList = __import__('1-my_list').MyList
 
+# Empty list
 >>> my_list = MyList()
+>>> print(my_list)
+[]
+>>> my_list.print_sorted()
+[]
+
+# Append integers
 >>> my_list.append(1)
 >>> my_list.append(4)
 >>> my_list.append(2)
@@ -13,8 +19,17 @@ Testing MyList class
 >>> print(my_list)
 [1, 4, 2, 3, 5]
 
+# print_sorted prints sorted list
 >>> my_list.print_sorted()
 [1, 2, 3, 4, 5]
 
+# Original list remains unchanged
 >>> print(my_list)
 [1, 4, 2, 3, 5]
+
+# Negative numbers
+>>> my_list.append(-10)
+>>> my_list.print_sorted()
+[-10, 1, 2, 3, 4, 5]
+>>> print(my_list)
+[1, 4, 2, 3, 5, -10]
