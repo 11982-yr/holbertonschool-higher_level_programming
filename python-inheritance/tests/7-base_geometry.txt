@@ -1,32 +1,99 @@
 # tests/7-base_geometry.txt
 
->>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
->>> bg = BaseGeometry()
+=============================
+How to Use 7-base_geometry.py
+=============================
 
-# area method
->>> bg.area()
-Traceback (most recent call last):
-...
-Exception: area() is not implemented
+This module defines a base geometry class ``BaseGeometry``.
 
-# valid integers
->>> bg.integer_validator("width", 5)
->>> bg.integer_validator("height", 10)
+Instantiation
+=============
 
-# invalid type
->>> bg.integer_validator("name", "John")
-Traceback (most recent call last):
-...
-TypeError: name must be an integer
+``BaseGeometry`` is initialized with no arguments.
 
-# zero value
->>> bg.integer_validator("age", 0)
-Traceback (most recent call last):
-...
-ValueError: age must be greater than 0
+::
 
-# negative value
->>> bg.integer_validator("distance", -3)
-Traceback (most recent call last):
-...
-ValueError: distance must be greater than 0
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+    >>> bg = BaseGeometry()
+    >>> type(bg)
+    <class '7-base_geometry.BaseGeometry'>
+
+Printing an instance shows the default object representation.
+
+::
+
+    >>> print(bg)  # doctest: +ELLIPSIS
+    <7-base_geometry.BaseGeometry object at ...>
+
+Methods
+=======
+
+``BaseGeometry`` provides two public instance methods:
+``area(self)`` and ``integer_validator(self, name, value)``.
+
+The ``area`` method is not implemented.
+
+::
+
+    >>> bg.area()
+    Traceback (most recent call last):
+    ...
+    Exception: area() is not implemented
+
+The ``integer_validator`` method checks that ``value`` is an integer greater than 0.
+If the value is valid, the method returns nothing.
+
+::
+
+    >>> bg.integer_validator("width", 1)
+    >>> bg.integer_validator("height", 10)
+
+If ``value`` is not an integer, a TypeError is raised.
+
+::
+
+    >>> bg.integer_validator("name", "John")
+    Traceback (most recent call last):
+    ...
+    TypeError: name must be an integer
+
+Booleans are not accepted as integers here.
+
+::
+
+    >>> bg.integer_validator("flag", True)
+    Traceback (most recent call last):
+    ...
+    TypeError: flag must be an integer
+
+If ``value`` is an integer but less than or equal to 0, a ValueError is raised.
+
+::
+
+    >>> bg.integer_validator("age", 0)
+    Traceback (most recent call last):
+    ...
+    ValueError: age must be greater than 0
+
+::
+
+    >>> bg.integer_validator("distance", -4)
+    Traceback (most recent call last):
+    ...
+    ValueError: distance must be greater than 0
+
+Calling the validator with missing arguments raises TypeError (message may vary).
+
+::
+
+    >>> bg.integer_validator()
+    Traceback (most recent call last):
+    ...
+    TypeError: ...
+
+::
+
+    >>> bg.integer_validator("only_name")
+    Traceback (most recent call last):
+    ...
+    TypeError: ...
