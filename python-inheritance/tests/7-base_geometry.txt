@@ -1,1 +1,32 @@
+# tests/7-base_geometry.txt
 
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+>>> bg = BaseGeometry()
+
+# area method
+>>> bg.area()
+Traceback (most recent call last):
+...
+Exception: area() is not implemented
+
+# valid integers
+>>> bg.integer_validator("width", 5)
+>>> bg.integer_validator("height", 10)
+
+# invalid type
+>>> bg.integer_validator("name", "John")
+Traceback (most recent call last):
+...
+TypeError: name must be an integer
+
+# zero value
+>>> bg.integer_validator("age", 0)
+Traceback (most recent call last):
+...
+ValueError: age must be greater than 0
+
+# negative value
+>>> bg.integer_validator("distance", -3)
+Traceback (most recent call last):
+...
+ValueError: distance must be greater than 0
