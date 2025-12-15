@@ -1,22 +1,50 @@
 # tests/7-base_geometry.txt
 
+=============================
+Testing BaseGeometry
+=============================
+
+Instantiation
+=============
+
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 >>> bg = BaseGeometry()
+>>> type(bg)
+<class '7-base_geometry.BaseGeometry'>
+
+>>> print(bg)  # doctest: +ELLIPSIS
+<7-base_geometry.BaseGeometry object at ...>
+
+area() method
+=============
 
 >>> bg.area()
 Traceback (most recent call last):
 ...
 Exception: area() is not implemented
 
->>> bg.integer_validator("age", 1)
+integer_validator() method
+==========================
 
-# Missing argument (message varies by Python version)
+Valid integer values do nothing.
+
+>>> bg.integer_validator("age", 1)
+>>> bg.integer_validator("width", 10)
+
+Missing argument cases (error message may vary).
+
 >>> bg.integer_validator("age")  # doctest: +ELLIPSIS
 Traceback (most recent call last):
 ...
 TypeError: ...
 
-# Invalid types: exact messages required by the project
+Non-integer values raise TypeError.
+
+>>> bg.integer_validator("age", "4")
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
 >>> bg.integer_validator("age", (4,))
 Traceback (most recent call last):
 ...
@@ -36,3 +64,20 @@ TypeError: age must be an integer
 Traceback (most recent call last):
 ...
 TypeError: age must be an integer
+
+>>> bg.integer_validator("age", True)
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
+Integer values less than or equal to zero raise ValueError.
+
+>>> bg.integer_validator("age", 0)
+Traceback (most recent call last):
+...
+ValueError: age must be greater than 0
+
+>>> bg.integer_validator("age", -4)
+Traceback (most recent call last):
+...
+ValueError: age must be greater than 0
