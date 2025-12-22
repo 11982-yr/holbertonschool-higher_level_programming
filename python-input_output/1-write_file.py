@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Module that provides a function to write and return a string to a text file."""
+"""Module that provides a function to write and 
+   return a string to a text file."""
 
 
 def write_file(filename="", text=""):
