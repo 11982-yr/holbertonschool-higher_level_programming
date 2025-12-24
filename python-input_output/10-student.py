@@ -20,6 +20,6 @@ class Student:
             for attr in attrs:
                 if hasattr(self, attr):
                     result[attr] = getattr(self, attr)
-                return result
+            return result
 
         return self.__dict__
