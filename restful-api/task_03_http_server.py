@@ -6,7 +6,7 @@ Task 3: Develop a simple API using Python with the `http.server` module
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 
-class SimpleAPIHnadler(BaseHTTPRequestHandler):
+class SimpleAPIHandler(BaseHTTPRequestHandler):
     """Request Handler for a simple API"""
 
     def _send_text(self, status_code, message):
@@ -16,19 +16,19 @@ class SimpleAPIHnadler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(message.encode("utf-8"))
         
-    def _send_json(self, status_codem message):
+    def _send_json(self, status_code, payload):
         """Send a JSON response."""
         self.send_response(status_code)
-        self.send_header("Content-Type", "text/plain; charset=utf-8")
-        self.end_header()
-        self.wfile.write(message.encode("utf-8")
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.end_headers()
+        self.wfile.write(json.dumps(payload).encode("utf-8"))
 
     def do_GET(self):
         """Handle GET requests"""
         if self.path == "/":
             self._send_text(200, "Hello, this is a simple API!")
         elif self.path == "/status":
-            self.__send_text(200, "OK")
+            self._send_text(200, "OK")
         elif self.path == "/data":
             self._send_json(200, {"name": "John", "age": 30, "city": "New York"})
         elif self.path == "/info":
@@ -49,5 +49,5 @@ def run(server_class=HTTPServer, handler_class=SimpleAPIHandler, port=8000):
     httpd = server_class(server_address, handler_class)
     httpd.serve_forever()
 
-if __name__ == "main":
+if __name__ == "__main__":
     run()
