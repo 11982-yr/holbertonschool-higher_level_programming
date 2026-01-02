@@ -3,6 +3,7 @@
 Appends a string after each line containing a specific substring.
 """
 
+
 def append_after(filename="", search_string="", new_string=""):
     """
     Inserts new_string after each line containing search_string.
