@@ -22,6 +22,7 @@ def main():
     line_count = 0
     valid_codes = ["200", "301", "400", "401", "403", "404", "405", "500"]
     status_counts = {code: 0 for code in valid_codes}
+    printed = False
 
     try:
         for line in sys.stdin:
@@ -42,9 +43,10 @@ def main():
 
             if line_count % 10 == 0:
                 print_stats(total_size, status_counts)
+                printed = True
 
-        # Print remaining stats at EOF (for inputs not multiple of 10)
-        if line_count > 0 and line_count % 10 != 0:
+        # Always print at EOF (required even for empty input)
+        if not printed or line_count % 10 != 0:
             print_stats(total_size, status_counts)
 
     except KeyboardInterrupt:
