@@ -18,6 +18,12 @@ holbertonschool-higher_level_programming/
 ├── python-test_driven_development/
 ├── python-classes/
 ├── python-more_classes/
+├── python-inheritance/
+├── python-input_output/
+├── python-serialization/
+├── python-abc/
+├── restful-api/
+├── SQL_introduction/
 └── (additional project folders as assigned)
 ```
 
@@ -138,6 +144,73 @@ Directory: ``` python-more_classes/ ```
 - Comparing objects through custom logic
 - Representing objects in a printable and reproducible way
 - Constructing a square from a rectangle using class methods
+
+**Python – Inheritance**
+
+Directory: ``` python-inheritance/ ```
+
+Covers object-oriented inheritance concepts, including:
+* Inheriting from parent classes
+* Method overriding
+* Using super()
+* Understanding isinstance() and issubclass()
+* Multiple inheritance
+* Attribute resolution order (MRO)
+
+**Python – Input / Output**
+
+Directory: ``` python-input_output/ ```
+
+Focuses on working with files and data persistence:
+* Reading and writing files
+* Using with statements
+* Working with JSON data
+* Serializing and deserializing objects
+* File permissions and error handling
+
+**Python – Serialization**
+
+Directory: ``` python-serialization/ ```
+
+Covers data serialization techniques in Python:
+* Converting objects to JSON
+* Saving and loading structured data
+* Custom serialization methods
+* Using built-in libraries like json
+* Understanding data interchange formats
+
+**Python – Abstract Base Classes**
+
+Directory: ``` python-abc/ ```
+
+Introduces abstraction in Python using ABCs:
+* Abstract base classes
+* Using the abc module
+* Defining abstract methods
+* Enforcing interface-like behavior
+* Designing extensible and maintainable code
+
+**RESTful API**
+
+Directory: ``` restful-api/ ```
+
+Focuses on:
+* REST principles
+* API design
+* CRUD operations
+* HTTP methods
+* Data serialization
+
+**SQL – Introduction**
+
+Directory: ``` SQL_introduction/ ```
+
+Covers:
+* SQL basics
+* Creating and managing databases
+* Table operations
+* Data querying and aggregation
+* Advanced SQL filtering and grouping
 
 ## General Requirements for All Projects
 
