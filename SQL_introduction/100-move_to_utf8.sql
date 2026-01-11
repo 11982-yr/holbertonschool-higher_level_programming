@@ -1,4 +1,4 @@
--- 100. Move to UTF8
+-- 17. Go to UTF8
 -- Converts hbtn_0c_0 database, first_table and name field to utf8mb4 (utf8mb4_unicode_ci)
 
 USE `hbtn_0c_0`
