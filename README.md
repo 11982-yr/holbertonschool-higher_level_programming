@@ -242,6 +242,7 @@ Covers:
 **This project also includes working with provided database dumps:**
 * ```hbtn_0d_tvshows```
 * ```hbtn_0d_tvshows_rate```
+
 and performing analytical queries on real relational datasets.
 
 ## General Requirements for All Projects
