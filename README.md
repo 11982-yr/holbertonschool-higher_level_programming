@@ -24,6 +24,7 @@ holbertonschool-higher_level_programming/
 ├── python-abc/
 ├── restful-api/
 ├── SQL_introduction/
+├── SQL_more_queries/
 └── (additional project folders as assigned)
 ```
 
@@ -211,6 +212,37 @@ Covers:
 * Table operations
 * Data querying and aggregation
 * Advanced SQL filtering and grouping
+
+**SQL – More Queries**
+
+Directory: ``` SQL_more_queries/ ```
+
+This project builds on the SQL fundamentals and focuses on advanced MySQL concepts, including permissions, relationships, and complex queries.
+
+Covers:
+* Creating and managing MySQL users
+* Granting and listing user privileges
+* Creating databases and tables with:
+    * PRIMARY KEY
+    * FOREIGN KEY
+    * NOT NULL constraints
+* Writing advanced queries using:
+    * INNER JOIN
+    * LEFT JOIN
+* Subqueries
+* Filtering data with NULL values
+* Aggregation using:
+    * COUNT
+    * SUM
+    * GROUP BY
+* Sorting results with ORDER BY
+* Querying relational data across multiple tables
+* Writing idempotent SQL scripts that do not fail if objects already exist
+
+**This project also includes working with provided database dumps:**
+* ```hbtn_0d_tvshows```
+* ```hbtn_0d_tvshows_rate```
+and performing analytical queries on real relational datasets.
 
 ## General Requirements for All Projects
 
