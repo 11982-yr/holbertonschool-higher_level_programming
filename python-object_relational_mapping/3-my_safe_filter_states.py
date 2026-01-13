@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""
-Takes in arguments and displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
-"""
+"""Displays states where the name matches the given argument safely."""
 
-import MySQLdb
 import sys
+import MySQLdb
+
 
 if __name__ == "__main__":
     user = sys.argv[1]
@@ -22,11 +21,11 @@ if __name__ == "__main__":
 
     cur = db.cursor()
     cur.execute(
-        "SELECT * FROM states WHERE name = %s ORDER BY states.id ASC;"
+        "SELECT * FROM states WHERE name = %s ORDER BY states.id ASC;",
         (state_name,)
     )
 
-    for row in in cur.fetchall():
+    for row in cur.fetchall():
         print(row)
 
     cur.close()
